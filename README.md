@@ -226,13 +226,13 @@
 
 * 由于运行一亿个元素的矩阵所需时间过长，所以先测试运行1000*1000的矩阵比较运行时间，测试结果如图所示：
 
-  ![m11](D:\cx\matrix\picture\m11.png)
+  ![m11](https://github.com/taoge-wjcs/matrix/blob/main/picture/m11.png)
 
 * 可以看出，分块加换序的方法能比不优化加速三倍左右，而openblas的速度远快于前面几种，由此选择这两种方法进行10000*10000大小的矩阵的测试，结果如图：
 
-  ![m12](D:\cx\matrix\picture\m12.png)
+  ![m12](https://github.com/taoge-wjcs/matrix/blob/main/picture/m12.png)
 
-<img src="D:\cx\matrix\picture\m13.png" alt="m13" style="zoom: 80%;" />
+<img src="https://github.com/taoge-wjcs/matrix/blob/main/picture/m13.png" alt="m13" style="zoom: 80%;" />
 
 
 
@@ -334,13 +334,13 @@
 
 * 正确的输出结果如图所示：
 
-![m21](D:\cx\matrix\picture\m21.png)
+![m21](https://github.com/taoge-wjcs/matrix/blob/main/picture/m21.png)
 
 * 错误输入时的输出结果：
 
-  ![m22](D:\cx\matrix\picture\m22.png)
+  ![m22](https://github.com/taoge-wjcs/matrix/blob/main/picture/m22.png)
 
-![m23](D:\cx\matrix\picture\m23.png)
+![m23](https://github.com/taoge-wjcs/matrix/blob/main/picture/m23.png)
 
 ## 总结：
 
